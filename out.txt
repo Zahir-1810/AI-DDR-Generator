@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\abhin\.gemini\antigravity\scratch\ddr_generator\main.py", line 2, in <module>
+    from extractor import extract_content_from_pdf
+  File "C:\Users\abhin\.gemini\antigravity\scratch\ddr_generator\extractor.py", line 5
+    \"\"\"
+     ^
+SyntaxError: unexpected character after line continuation character

@@ -1,0 +1,29 @@
+Welcome to the DDR AI Generator Workflow!
+
+--- Step 1: Extracting Text & Images ---
+Extracted 0 images and combined text successfully.
+
+--- Step 2: AI Workflow (Gemini) ---
+Sending multimodal request to Gemini API (0 images attached)...
+Traceback (most recent call last):
+  File "C:\Users\abhin\.gemini\antigravity\scratch\ddr_generator\main.py", line 45, in main
+    print(f"\n\u2705 Success! The final report was saved to: {output_file}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 2: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\abhin\.gemini\antigravity\scratch\ddr_generator\main.py", line 54, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\abhin\.gemini\antigravity\scratch\ddr_generator\main.py", line 51, in main
+    print(f"\n\u274c Pipeline Error: {e}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>

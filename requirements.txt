@@ -1,0 +1,6 @@
+PyMuPDF==1.25.3
+google-genai==0.3.0
+python-dotenv==1.0.1
+streamlit>=1.42.0
+markdown
+xhtml2pdf

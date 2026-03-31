@@ -1,0 +1,1 @@
+# Place inspection_report.pdf and thermal_report.pdf in this folder
